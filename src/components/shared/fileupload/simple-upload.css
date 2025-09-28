@@ -1,0 +1,36 @@
+/* Simple File Upload Animations */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hover effects */
+.upload-hover-overlay {
+  transition: opacity 0.3s ease;
+}
+
+.upload-hover-overlay:hover {
+  opacity: 1 !important;
+}
+
+/* Dark theme compatibility */
+.ant-upload-dragger {
+  background-color: #1a1a1a !important;
+  border-color: #434343 !important;
+}
+
+.ant-upload-dragger:hover {
+  border-color: #ff4d4f !important;
+}
+
+.ant-upload-dragger .ant-upload-drag-icon {
+  color: #666 !important;
+}
+
+.ant-upload-dragger .ant-upload-text {
+  color: #fff !important;
+}
+
+.ant-upload-dragger .ant-upload-hint {
+  color: #999 !important;
+}

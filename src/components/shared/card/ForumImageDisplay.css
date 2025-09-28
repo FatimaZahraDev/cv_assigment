@@ -1,0 +1,294 @@
+/* Forum Image Display Styles */
+.forum-images-swiper {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.forum-attachments-swiper {
+  border-radius: 8px;
+}
+
+.forum-image-slide {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.forum-single-image {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Custom navigation buttons for forum swiper */
+.forum-swiper-button-prev,
+.forum-swiper-button-next {
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+ 
+}
+.forum-images-swiper:hover  .forum-swiper-button-prev,
+.forum-images-swiper:hover .forum-swiper-button-next{
+    opacity: 1;
+}
+.forum-swiper-button-prev:hover,
+.forum-swiper-button-next:hover {
+ opacity: 1;
+}
+
+.forum-swiper-button-prev {
+  left: 10px;
+}
+
+.forum-swiper-button-next {
+  right: 10px;
+}
+
+
+
+.forum-swiper-button-prev::after {
+  border-width: 8px 12px 8px 0;
+  border-color: transparent #fff transparent transparent;
+  margin-left: -2px;
+}
+
+.forum-swiper-button-next::after {
+  border-width: 8px 0 8px 12px;
+  border-color: transparent transparent transparent #fff;
+  margin-right: -2px;
+}
+
+/* Lightbox styles */
+.forum-image-lightbox .ant-modal-content {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+}
+
+.forum-image-lightbox .ant-modal-header {
+  background: transparent;
+  border-bottom: none;
+}
+
+.forum-image-lightbox .ant-modal-close {
+  color: white;
+  font-size: 20px;
+}
+
+.forum-image-lightbox .ant-modal-close:hover {
+  color: #ccc;
+}
+
+.lightbox-swiper {
+  width: 100%;
+  height: 80vh;
+}
+
+.lightbox-image-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Custom navigation buttons for lightbox swiper */
+.lightbox-swiper-button-prev,
+.lightbox-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.lightbox-swiper-button-prev:hover,
+.lightbox-swiper-button-next:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.lightbox-swiper-button-prev {
+  left: 20px;
+}
+
+.lightbox-swiper-button-next {
+  right: 20px;
+}
+
+
+
+
+.lightbox-swiper-button-next::after {
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #fff;
+  margin-right: -3px;
+}
+ 
+/* Vehicle lightbox styles */
+.vehicle-image-lightbox .ant-modal-content {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+}
+
+.vehicle-image-lightbox .ant-modal-header {
+  background: transparent;
+  border-bottom: none;
+}
+
+.vehicle-image-lightbox .ant-modal-close {
+  color: white;
+  font-size: 20px;
+}
+
+.vehicle-image-lightbox .ant-modal-close:hover {
+  color: #ccc;
+}
+
+.vehicle-lightbox-swiper {
+  width: 100%;
+  height: 80vh;
+}
+
+.vehicle-lightbox-image-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Custom navigation buttons for vehicle lightbox swiper */
+.vehicle-lightbox-swiper-button-prev,
+.vehicle-lightbox-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.vehicle-lightbox-swiper-button-prev:hover,
+.vehicle-lightbox-swiper-button-next:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.vehicle-lightbox-swiper-button-prev {
+  left: 20px;
+}
+
+.vehicle-lightbox-swiper-button-next {
+  right: 20px;
+}
+
+.vehicle-lightbox-swiper-button-prev::after,
+.vehicle-lightbox-swiper-button-next::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.vehicle-lightbox-swiper-button-prev::after {
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #fff transparent transparent;
+  margin-left: -3px;
+}
+
+.vehicle-lightbox-swiper-button-next::after {
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #fff;
+  margin-right: -3px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .forum-image-slide {
+    height: 300px;
+  }
+  
+  .forum-swiper-button-prev,
+  .forum-swiper-button-next {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .lightbox-swiper-button-prev,
+  .lightbox-swiper-button-next,
+  .vehicle-lightbox-swiper-button-prev,
+  .vehicle-lightbox-swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .lightbox-swiper-button-prev,
+  .vehicle-lightbox-swiper-button-prev {
+    left: 10px;
+  }
+  
+  .lightbox-swiper-button-next,
+  .vehicle-lightbox-swiper-button-next {
+    right: 10px;
+  }
+}
+
+.forum-media-swiper{
+  height: 100%;
+}
+
+
+.lightbox-swiper-button-prev,
+.lightbox-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.lightbox-swiper-button-prev {
+  left: 10px;
+}
+
+.lightbox-swiper-button-next {
+  right: 10px;
+}
+
+.forum-media-slide{
+  width: 100%;
+}
+.forum-single-media {
+    z-index: 1;
+}

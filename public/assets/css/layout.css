@@ -1,0 +1,674 @@
+@font-face {
+    font-family: "Lufga-Bold";
+    src: url("/assets/font/lufga/LufgaBold.ttf");
+}
+
+@font-face {
+    font-family: "Lufga-Regular";
+    src: url("/assets/font/lufga/LufgaRegular.ttf");
+}
+
+@font-face {
+    font-family: "Lufga-Medium";
+    src: url("/assets/font/lufga/LufgaMedium.ttf");
+}
+
+@font-face {
+    font-family: "Lufga-Black";
+    src: url("/assets/font/lufga/LufgaBlack.ttf");
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Bold";
+    src: url("/assets/font/league-spartan/LeagueSpartan-Bold.otf");
+}
+
+body {
+    margin: 0;
+    color: #fff !important;
+    font-size: 13px;
+    position: relative;
+    font-family: "Lufga-Regular" !important;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+.ant-layout {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1590px;
+}
+
+.ant-typography,
+.ant-btn,
+.ant-input,
+.ant-select,
+.ant-menu,
+.ant-form,
+.ant-table,
+.ant-modal,
+.ant-tooltip,
+.ant-tabs,
+.ant-card,
+.ant-dropdown,
+.ant-pagination,
+.ant-switch,
+.ant-radio,
+.ant-checkbox,
+.ant-message,
+.ant-alert,
+.ant-breadcrumb,
+.ant-avatar,
+.ant-layout,
+.ant-collapse,
+.ant-list,
+.ant-drawer,
+.ant-popover,
+.ant-checkbox-label {
+    font-family: "Lufga-Regular" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lufga-Medium" !important;
+}
+
+
+ol,
+ul {
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+p,
+ul,
+ol,
+div,
+footer,
+header,
+main {
+    font-family: "Lufga-Regular" !important;
+}
+
+/* total width */
+::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #f4f4f4;
+}
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 5px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a5;
+    border: 4px solid #f4f4f4;
+}
+
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+
+
+a {
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600 !important;
+
+}
+
+address,
+dl,
+ol,
+p,
+ul {
+    margin: 0 !important;
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+p {
+    color: #fff;
+}
+
+.text-appcase {
+    text-transform: uppercase;
+}
+
+
+/* Footer  */
+.footer-upper-sec {
+    background-image: url("/assets/img/footer-upper.png");
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+}
+
+.footer-upper-sec h2 {
+    font-size: 46px;
+    line-height: 1.0;
+    text-transform: uppercase;
+    font-family: "LeagueSpartan-Bold" !important;
+
+}
+
+footer {
+    background-color: #181717;
+    padding-top: 60px;
+}
+
+.footer-border {
+    border-top: 1px solid #2B2B2B;
+    padding: 10px 0;
+}
+
+
+.sub-header {
+    background: #000;
+    position: static !important;
+}
+
+
+span.ant-collapse-header-text {
+    color: #fff;
+    padding: 0 !important;
+    font-size: 22px;
+    position: relative;
+}
+
+span.ant-collapse-header-text::after {
+    content: "";
+    position: absolute;
+    width: 77%;
+    height: 1px;
+    background-color: #2B2B2B;
+    right: 0;
+    top: 50%;
+}
+
+.ant-collapse-item:first-child span.ant-collapse-header-text::after {
+    width: 82%;
+}
+
+.ant-collapse-item:last-child span.ant-collapse-header-text::after {
+    width: 83%;
+}
+
+.ant-collapse-header {
+    padding: 15px 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.ant-collapse-item {
+    border: 0 !important;
+}
+
+.ant-collapse-expand-icon img {
+    width: 13px;
+    top: 6px;
+    position: relative;
+}
+
+.custom-radio-group {
+    width: 100%;
+}
+
+/* Apply only within custom group */
+.custom-radio-group .ant-radio-inner {
+    border-color: grey;
+    /* default for inactive */
+    background-color: transparent;
+}
+
+.custom-radio-group .ant-radio-checked .ant-radio-inner {
+    background-color: red;
+    /* active inner */
+    border-color: white;
+    /* active border */
+}
+
+/* Optional: hide tiny dot inside selected radio */
+.custom-radio-group .ant-radio-inner::after {
+    display: none;
+}
+
+
+/* loader.css */
+
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(16, 16, 16, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+
+.ant-modal-header {
+    background: #181717 !important;
+    margin: 0 !important;
+    padding: 12px 20px !important;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 2px solid #2B2B2B !important;
+}
+
+.ant-modal-header .ant-modal-title {
+    font-size: 30px;
+    color: #fff;
+}
+
+.ant-modal-body {
+    padding: 20px !important;
+    background: #181717 !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.modal-input input {
+    background: #0D0B0B;
+    border: 1px solid #0D0B0B;
+    padding: 13px;
+    color: #fff;
+}
+
+.modal-input textarea {
+    background: #0D0B0B;
+    border: 1px solid #0D0B0B;
+    padding: 13px;
+    color: #fff;
+}
+
+.ant-modal-content {
+    background-color: transparent;
+}
+
+.modal-input input:hover,
+.modal-input input:active,
+.modal-input input:focus,
+.modal-input input:hover,
+.modal-input textarea:active,
+.modal-input textarea:focus,
+.modal-input textarea:hover {
+    background: #0D0B0B;
+    border: 1px solid #0D0B0B;
+    padding: 13px;
+}
+
+.dark-swal-popup {
+    border-radius: 10px;
+}
+
+.dark-swal-title {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.dark-swal-button {
+    background-color: #d33 !important;
+    color: #fff !important;
+}
+
+.swal2-actions {
+    width: 100%;
+    padding: 0 30px;
+}
+
+button.swal2-confirm.dark-swal-button.swal2-styled {
+    width: 100%;
+    border-radius: 12px;
+}
+
+div#swal2-html-container {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* button.ant-modal-close {
+    display: none;
+} */
+
+.ant-upload.ant-upload-drag {
+    box-shadow: 0px 4px 12px 0px #0000000F;
+    border: 1px solid #0D0B0B;
+    background: #0D0B0B;
+    padding: 25px;
+}
+
+.form-input.modal-input .ant-form-item {
+    background-color: #0D0B0B;
+    margin-bottom: 10px;
+    border-radius: 10 px;
+}
+
+.ant-upload.ant-upload-select {
+    border: 1px solid #E63B3B !important;
+}
+
+.ant-avatar.ant-avatar-circle+div {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(190 40 40) !important;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(190 40 40) !important;
+    cursor: pointer;
+}
+
+.update-profile-icon .ant-upload.ant-upload-select {
+    width: 125px !important;
+    height: 125px !important;
+    /* overflow: hidden;Image uploaded successfully */
+    /* position: absolute; */
+    top: 0;
+}
+
+.update-profile-icon .ant-upload.ant-upload-select img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.uploader-profile {
+    position: absolute;
+    bottom: -35%;
+    left: 0;
+    right: 0;
+}
+
+.add-up-icon::after {
+    content: none !important;
+}
+
+.ant-notification-notice-closable .ant-notification-notice-close svg {
+    color: grey;
+}
+
+.ant-select-outlined.ant-pagination-options-size-changer {
+    display: none;
+}
+
+.ant-pagination-options-quick-jumper {
+    display: none !important;
+}
+
+li.ant-pagination-prev {
+    background: #212121;
+    color: red;
+    display: flex;
+    align-items: center;
+
+}
+
+li.ant-pagination-prev svg {
+    color: #fff !important;
+    font-size: 15px;
+}
+
+li.ant-pagination-next {
+    background: #212121;
+}
+
+li.ant-pagination-next svg {
+    color: #fff;
+    font-size: 15px;
+}
+
+li.ant-pagination-prev>button::after,
+li.ant-pagination-next>button::after {
+    content: none !important;
+}
+
+.like-icon {
+    fill: white;
+    transition: fill 0.3s ease;
+}
+
+
+.like-icon.active {
+    fill: white;
+    transition: fill 0.3s ease;
+    width: 30px;
+    height: auto;
+    object-fit: cover;
+}
+
+.comment-user-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.comment-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.comment-modal .ant-modal-content {
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.comment-modal .ant-modal-header {
+    background: #000 !important;
+    border-bottom: 1px solid #2b2b2b !important;
+    border-radius: 20px 20px 0 0;
+}
+
+.comment-modal .ant-modal-title {
+    color: #fff;
+}
+
+.comment-modal .ant-modal-body {
+    background: #000 !important;
+    padding: 20px !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.comment-modal .form-control {
+    background-color: #0d0b0b;
+    border: 1px solid #0d0b0b;
+    color: #fff;
+}
+
+.comment-modal .btn-primary {
+    background-color: #e63b3b;
+    border-color: #e63b3b;
+}
+
+.modal-comment-box {
+    background: #181717;
+    padding: 11px 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.modal-comment-box .comment-user-img {
+    width: 40px;
+    height: 40px;
+}
+
+.ant-modal-body .modal-text-area textarea {
+    background: #181717 !important;
+    padding: 16px 10px 10px 16px;
+    color: #fff !important;
+    width: 90%;
+}
+
+.modal-text-area .ant-form-item {
+    margin: 0;
+    width: 100%;
+    margin-top: 30px !important;
+}
+
+
+.modal-text-area .ant-form-item textarea {
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.community-card  .preview-uploaded-view {
+    display: none;
+}
+.forum-sec .preview-uploaded-view {
+    display: none;
+}
+
+.input-mb-0 .ant-form-item {
+    margin-bottom: 0 !important;
+}
+.white-dots-img img {
+    width: 28px;
+}
+.white-dots-img img {
+    width: 30px !important;
+}
+
+
+.vehicle-detail-sec-slider .swiper-slide {
+    background: #444;
+}
+
+
+.vehicle-detail-sec-slider .second-slider-img img {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 12px;
+}
+
+.forum-single-media {
+    height: 100% !important;
+    position: relative;
+}
+
+.forum-single-media video {
+    height: 100%;
+}
+.forum-single-media> .ant-image::before,
+.forum-single-media> video::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 100%);
+
+}
+.second-slider-img img {
+    padding: 0;
+    line-height: 0;
+}
+
+.swiper-slide {
+    background: #181717 !important;
+}
+.second-slider-img img {
+    padding: 0;
+    line-height: 0;
+}
+
+.second-slider-img>div {
+    width: 93px !important;
+    height: 100% !important ;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+}
+
+.second-slider-img {
+    background: transparent !important;
+}
+.swiper-thumbs .swiper-slide > div > video {
+  width: 100px !important;
+  height: 80px !important;  /* ya koi fixed height */
+  object-fit: cover !important;
+  border-radius: 8px; /* optional */
+  display: block;
+}
+
+
+
+.vehicle-detail-sec-slider .ant-image {
+    width: 100%;
+    height: 100%;
+}
+.vehicle-detail-sec-slider .ant-image-mask-info {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}

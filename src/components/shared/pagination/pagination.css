@@ -1,0 +1,95 @@
+/* pagination.css */
+
+/* Container spacing and layout */
+.pagination-component {
+  background-color: #1e1e1e;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: white;
+}
+
+/* Pagination numbers */
+.ant-pagination-item {
+  background-color: transparent;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 6px;
+  margin-inline: 4px;
+}
+
+/* Hover effect */
+.ant-pagination-item:hover {
+  border-color: #888;
+  color: #00bfff;
+}
+
+/* Active page */
+.ant-pagination-item-active {
+  background-color: #00bfff;
+  border-color: #00bfff;
+  color: #fff;
+}
+
+/* Quick jumper input */
+.ant-pagination-options-quick-jumper input {
+  background-color: #2b2b2b;
+  color: white;
+  border-color: #555;
+}
+
+/* Page size select dropdown */
+.pagination-page-size-select .ant-select-selector {
+  background-color: #2b2b2b !important;
+  border-color: #444 !important;
+  color: white !important;
+}
+
+.pagination-dropdown .ant-select-item {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.pagination-dropdown .ant-select-item-option-selected {
+  background-color: #00bfff;
+  color: #fff;
+}
+
+/* pagination.css */
+
+.pagination-component {
+  background-color: #0e0c0c;
+  /* Matches the black background */
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: #ffffff;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagination-component .ant-pagination-item {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.pagination-component .ant-pagination-item-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.pagination-component .ant-pagination-prev,
+.pagination-component .ant-pagination-next {
+  color: #fff;
+}
+
+.pagination-component .ant-pagination-disabled {
+  opacity: 0.4;
+}
+
+.page-label {
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0 16px;
+}

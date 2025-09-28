@@ -1,0 +1,117 @@
+header.app-header {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+        padding: 20px 0 10px 0;
+}
+.header-icons{
+       width: 55px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0B0B;
+    border-radius: 16px;
+}
+.active .header-icons{
+    background-color: #BE2828;
+}
+.header-icons img {
+    width: 21px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    background: transparent;
+    border-radius: 8px;
+    padding: 0;
+      
+}
+header .navbar-nav .nav-item  {
+    background: transparent;
+    border-radius: 8px;
+    padding: 10px;
+        background: transparent;
+    border-radius: 8px;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+header .navbar-nav .nav-item .active {
+    background: #BE2828;
+    padding: 5px 20px;
+    
+}
+.header-drop{
+    color: #ffff;
+}
+.header-drop:hover{
+    color: #ffff;
+}
+.dropdown-toggle::after{
+    content: none !important;
+}
+
+header.app-header {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+span.swiper-pagination-bullet {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+span.swiper-pagination-bullet {
+    opacity: 0;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+    width: 30px;
+    background-color: transparent !important;
+}
+
+span.swiper-pagination-bullet {
+    display: none !important;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    display: block !important;
+}
+.swiper-pagination{
+    left: 20px !important;
+}
+.drop-img{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.drop-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header-icons svg{
+    color: #fff;
+    font-size: 17px;
+}
+
+
+.drop-header-icons{
+      width: 85px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0B0B;
+    border-radius: 16px;
+}

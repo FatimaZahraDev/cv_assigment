@@ -1,0 +1,323 @@
+.tunner-select .ant-select-selector {
+  background: transparent !important;
+  width: 200px !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.ant-select-arrow {
+  color: #FFFFFF !important;
+
+}
+
+.ant-input-affix-wrapper.tunner-select {
+  background: #181717 !important;
+  width: 281px !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+  padding: 16px 17px;
+}
+
+.ant-input-affix-wrapper.tunner-select input {
+  padding-left: 10px;
+}
+
+.filter-select .ant-select-selector {
+  background-color: #181717 !important;
+  color: #fff !important;
+  border: 1px solid #181717 !important;
+}
+
+.ant-select-selection-placeholder {
+  color: #FFFFFF !important;
+}
+
+.filter-select span.ant-select-arrow {
+  color: #FFFFFF !important;
+  font-size: 17px !important;
+}
+
+.filter-select .ant-select {
+  height: 60px !important;
+}
+
+
+.filter-select span.ant-select-selection-placeholder {
+  padding-left: 30px !important;
+}
+
+.ant-select-prefix img {
+  width: 28px;
+}
+
+.form-input span.ant-select-arrow svg {
+  color: #fff !important;
+  font-size: 18px !important;
+  position: absolute !important;
+  right: 5px !important;
+  top: -14px !important;
+}
+
+input::placeholder {
+  color: #FFFFFF !important;
+  /* Change this to your desired color */
+  opacity: 1;
+  /* Optional: Ensures the color is fully visible */
+}
+
+/* For textarea placeholders if needed */
+textarea::placeholder {
+  color: #FFFFFF !important;
+}
+
+/* Input Css  */
+
+.form-input .ant-form-item {
+  background: #181717;
+  box-shadow: 0px 4px 12px 0px #0000000F;
+  padding: 11px 6px;
+  border-radius: 18px;
+}
+
+.form-input textarea {
+  background: transparent;
+  border: 0;
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+
+.form-input textarea:hover,
+.form-input textarea:focus,
+.form-input textarea:active {
+  background: transparent;
+  border: 0;
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+
+.form-input .ant-form-item input {
+  background: transparent;
+  border: 0;
+  padding: 0 0 0 10px;
+  color: #fff;
+}
+
+.form-input .ant-form-item label {
+  padding: 0 !important;
+  margin: 0 !important;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-input .ant-form-item .ant-col.ant-form-item-label {
+  margin: 0 !important;
+  padding: 0 0 0 10px;
+}
+
+.form-input .ant-select-selector {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 0 0 10px !important;
+}
+
+.form-input input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  /* Change this to your desired color */
+  opacity: 1;
+  /* Optional: Ensures the color is fully visible */
+}
+
+.ant-select {
+  height: auto !important;
+}
+
+/* For textarea placeholders if needed */
+.form-input textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.form-input .ant-select-selection-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Apply same background and border removal to DatePicker and TimePicker */
+.form-input .ant-picker {
+  background: transparent !important;
+  box-shadow: 0px 4px 12px 0px #0000000F !important;
+  border-radius: 12px !important;
+  border: 0 !important;
+  padding-left: 0 !important;
+  color: #fff;
+  width: 100%;
+}
+
+.usd-input .ant-input-affix-wrapper {
+  background: #181717 !important;
+  box-shadow: 0px 4px 12px 0px #0000000F !important;
+  border-radius: 12px !important;
+  border: 0 !important;
+
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+}
+
+.usd-input .ant-input-affix-wrapper input {
+  padding-left: 10px;
+}
+
+.usd-input .ant-input-prefix {
+  position: relative;
+}
+
+.usd-p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.usd-input .ant-input-prefix .usd-p::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #2B2B2B;
+  top: 0;
+  right: -7px;
+}
+
+span.ant-picker-suffix svg {
+  color: #fff;
+  font-size: 18px;
+
+}
+
+/* Input inside DatePicker/TimePicker */
+.form-input .ant-picker input {
+  background: transparent !important;
+  border: 0 !important;
+  color: #fff !important;
+}
+
+/* Placeholder for DatePicker and TimePicker */
+.form-input .ant-picker input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1;
+}
+
+/* Calendar and Clock icons inside DatePicker/TimePicker */
+.form-input .ant-picker-suffix {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* End Input Css  */
+
+/* Dropdown menu background */
+.ant-select-dropdown {
+  background-color: #2B2B2B !important;
+}
+
+/* Individual option style */
+.ant-select-item-option {
+  background-color: #2B2B2B !important;
+  color: #fff !important;
+}
+
+/* Selected item highlight */
+.ant-select-item-option-selected {
+  background-color: #2B2B2B !important;
+  color: #fff !important;
+}
+
+
+
+
+
+
+.ant-select-focused .ant-select-selector {
+  box-shadow: none !important;
+}
+
+.ant-input-outlined:focus,
+.ant-input-outlined:focus-within {
+  box-shadow: none !important;
+}
+
+.ant-select-selection-item {
+  color: #fff;
+}
+
+.ant-select-focused .ant-select-selector .ant-select-selection-item {
+  color: #fff;
+}
+
+.form-input span.ant-input-password {
+  background: transparent;
+  border: 0;
+  padding: 0 0 0 10px;
+  color: #fff;
+}
+
+.form-input .ant-input-password:hover,
+.form-input .ant-input-password:active,
+.form-input .ant-input-password:focus,
+.form-input .ant-input-password:focus-within {
+  background: transparent;
+  border: 0;
+  padding: 0 0 0;
+  color: #fff;
+}
+
+.form-input .ant-input-password input {
+  padding: 0;
+}
+
+.form-input span.ant-input-password span.ant-input-suffix svg {
+  color: #fff;
+  font-size: 19px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.ant-modal-header {
+  border-radius: 22px 22px 0 0;
+}
+
+.ant-modal-body {
+  border-radius: 0 0 22px 22px;
+
+}
+
+.modal-input .ant-form-item .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+  background: transparent;
+  border-width: 0;
+  border-style: solid;
+  border-color: #ff4d4f;
+}
+
+
+.modal-input .ant-form-item-explain-error {
+  position: absolute;
+  bottom: -12px;
+}
+
+.modal-input .ant-form-item {
+  margin-bottom: 22px !important;
+}
+
+.form-input.vehicle-ad-inputs-error .ant-form-item-explain-error {
+  position: relative;
+  top: 10px;
+}
+
+.form-input.vehicle-ad-inputs-error .usd-input .ant-input-affix-wrapper {
+  padding: 9px 10px !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

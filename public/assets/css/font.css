@@ -1,0 +1,154 @@
+/* Font Size */
+.font-10 {
+    font-size: 10px;
+}
+
+.font-11 {
+    font-size: 11px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-17 {
+    font-size: 17px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-19 {
+    font-size: 19px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-34 {
+    font-size: 34px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-38 {
+    font-size: 38px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-45 {
+    font-size: 45px;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.font-55 {
+    font-size: 55px;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.font-65 {
+    font-size: 65px;
+}
+
+.font-70 {
+    font-size: 70px;
+}
+
+.font-75 {
+    font-size: 75px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+/* Font Size */
+
+/* Font Weight */
+.font-100 {
+    font-weight: 100 !important;
+}
+
+.font-200 {
+    font-weight: 200 !important;
+}
+
+.font-300 {
+    font-weight: 300 !important;
+}
+
+.font-400 {
+    font-weight: 400 !important; /* normal */
+}
+
+.font-500 {
+    font-weight: 500 !important;
+}
+
+.font-600 {
+    font-weight: 600 !important;
+}
+
+.font-700 {
+    font-weight: 700 !important; /* bold */
+}
+
+.font-800 {
+    font-weight: 800 !important;
+}
+
+.font-900 {
+    font-weight: 900 !important;
+}

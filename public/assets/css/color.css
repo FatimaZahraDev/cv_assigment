@@ -1,0 +1,30 @@
+.color-white{
+    color: #fff;
+}
+
+.color-white-800{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.color-white-500{
+    color: rgba(255, 255, 255, 0.5);
+}
+.color-red{
+    color: #E63B3B;
+}
+.color-red-500{
+      color: rgba(230, 59, 59, 0.5);
+}
+
+.color-green{
+    color: #11D147;
+}
+.color-black{
+    color: #000000;
+}
+.color-yellow{
+    color: #FFC01E;
+}
+.color-transparent{
+    color: transparent;
+}

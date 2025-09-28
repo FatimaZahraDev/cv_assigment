@@ -1,0 +1,198 @@
+/* Event Card Swiper Styles */
+.create-event-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.create-event-card-header {
+  position: relative;
+}
+
+/* Swiper customization */
+.event-attachments-swiper {
+  border-radius: 8px 8px 0 0;
+}
+
+.event-attachments-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attachment-slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Custom navigation buttons */
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.swiper-button-prev-custom,
+.swiper-button-next-custom
+.swiper-button-prev-custom {
+  left: 10px;
+}
+
+.swiper-button-next-custom {
+  right: 10px;
+}
+
+.create-event-card:hover .swiper-button-prev-custom,
+.create-event-card:hover .swiper-button-next-custom {
+  opacity: 1;
+}
+
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover {
+  background-color: rgba(255, 77, 79, 0.8);
+}
+
+.swiper-button-prev-custom img,
+.swiper-button-next-custom img {
+  width: 12px;
+  height: 12px;
+  filter: invert(1);
+}
+
+/* Pagination dots */
+.event-attachments-swiper .swiper-pagination {
+  bottom: 10px;
+}
+
+.event-attachments-swiper .swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.event-attachments-swiper .swiper-pagination-bullet-active {
+  background-color: #ff4d4f;
+}
+
+/* Attachment count indicator */
+.attachment-count {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  z-index: 5;
+}
+
+/* Video controls styling */
+.attachment-slide video {
+  outline: none;
+}
+
+.attachment-slide video::-webkit-media-controls-panel {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Hover effects */
+.create-event-card:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}
+
+/* Prevent text selection on card */
+.create-event-card {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    width: 25px;
+    height: 25px;
+  }
+
+  .swiper-button-prev-custom img,
+  .swiper-button-next-custom img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .attachment-count {
+    font-size: 9px;
+    padding: 3px 6px;
+  }
+}
+
+/* Loading state for images/videos */
+.attachment-slide img,
+.attachment-slide video {
+  background-color: #1a1a1a;
+  transition: opacity 0.3s ease;
+}
+
+.attachment-slide img[src=""],
+.attachment-slide video[src=""] {
+  opacity: 0.5;
+}
+
+/* Fallback for missing arrow images */
+.swiper-button-prev-custom::before {
+  content: '‹';
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.swiper-button-next-custom::before {
+  content: '›';
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hide default content when image is available */
+.swiper-button-prev-custom img~ ::before,
+.swiper-button-next-custom img~ ::before {
+  display: none;
+}
+
+/* Smooth transitions */
+.create-event-card * {
+  transition: all 0.3s ease;
+}
+
+/* Focus states for accessibility */
+.swiper-button-prev-custom:focus,
+.swiper-button-next-custom:focus {
+  outline: 2px solid #ff4d4f;
+  outline-offset: 2px;
+}
+
+/* Video play button styling */
+.attachment-slide video::-webkit-media-controls-play-button {
+  background-color: rgba(255, 77, 79, 0.8);
+  border-radius: 50%;
+}
+
+.banner-img .swiper-button-prev-custom,
+.banner-img .swiper-button-next-custom {
+  opacity: 1;
+}

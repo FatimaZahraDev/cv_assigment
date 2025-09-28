@@ -1,0 +1,195 @@
+
+.border-animation {
+    position: relative;
+    z-index: 0
+}
+
+.border-animation:before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 0;
+    height: 1.5px;
+    background: #BE2828;
+    transition: all .3s ease;
+    left: 0
+}
+
+.border-animation:hover {
+    color: #BE2828 !important; 
+}
+
+.border-animation:hover:before {
+    width: 100%
+}
+
+header .navbar-nav .nav-item .active.border-animation:before {
+    content: none;
+    
+}
+.active.border-animation:hover {
+    color: #fff !important; 
+}
+
+/*  */
+.swiper-super-flow {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  transition-duration: 1000ms;
+  cursor: grab;
+}
+
+.swiper-slide {
+  width: 1920px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.super-flow-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0% 0%, 97.0348% 0%, 100% 100%, 0% 100%);
+  transform: scale(1.1) translate(0%, 0px);
+  transition-duration: 1000ms;
+}
+
+.super-flow-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition-duration: 4000ms;
+  transition-timing-function: linear;
+  transform: translate(0px, 0px) scale(1.1);
+}
+
+.super-flow-fragments {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.95) translate(0%, 0px);
+  transition-duration: 1000ms;
+}
+
+.super-flow-fragment, 
+.super-flow-fragment-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.super-flow-fragment {
+  transition-duration: 4000ms;
+  transition-timing-function: linear;
+}
+
+.super-flow-fragment:nth-child(2) {
+  clip-path: polygon(0% 0%, 21.3473% 0%, 5.23724% 100%, 0% 100%);
+  transform: translate(0px, 0px) scale(1.15);
+}
+
+.super-flow-fragment:nth-child(4) {
+  clip-path: polygon(0% 0%, 6.38579% 0%, 16.4378% 100%, 0% 100%);
+  transform: translate(0px, 0px) scale(1.2);
+}
+
+.super-flow-fragment:nth-child(6) {
+  clip-path: polygon(0% 0%, 18.5166% 0%, 1.1821% 100%, 0% 100%);
+  transform: translate(0px, 0px) scale(1.25);
+}
+
+.super-flow-fragment:nth-child(8) {
+  clip-path: polygon(100% 0%, 92.6067% 0%, 79.819% 100%, 100% 100%);
+  transform: translate(0px, 0px) scale(1.15);
+}
+
+.super-flow-fragment:nth-child(10) {
+  clip-path: polygon(100% 0%, 80.8063% 0%, 91.7661% 100%, 100% 100%);
+  transform: translate(0px, 0px) scale(1.2);
+}
+
+.super-flow-fragment:nth-child(12) {
+  clip-path: polygon(100% 0%, 93.3616% 0%, 84.2749% 100%, 100% 100%);
+  transform: translate(0px, 0px) scale(1.25);
+}
+
+.super-flow-fragment-border {
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+.super-flow-fragment-border:nth-child(1) {
+  clip-path: polygon(calc(0% + 2px) 0%, calc(21.3473% + 2px) 0%, calc(5.23724% + 2px) 100%, calc(0% + 2px) 100%);
+  transform: translate(0px, 0px) scale(1.15);
+}
+
+.super-flow-fragment-border:nth-child(3) {
+  clip-path: polygon(calc(0% + 2px) 0%, calc(6.38579% + 2px) 0%, calc(16.4378% + 2px) 100%, calc(0% + 2px) 100%);
+  transform: translate(0px, 0px) scale(1.2);
+}
+
+.super-flow-fragment-border:nth-child(5) {
+  clip-path: polygon(calc(0% + 2px) 0%, calc(18.5166% + 2px) 0%, calc(1.1821% + 2px) 100%, calc(0% + 2px) 100%);
+  transform: translate(0px, 0px) scale(1.25);
+}
+
+.super-flow-fragment-border:nth-child(7) {
+  clip-path: polygon(calc(100% - 2px) 0%, calc(92.6067% - 2px) 0%, calc(79.819% - 2px) 100%, calc(100% - 2px) 100%);
+  transform: translate(0px, 0px) scale(1.15);
+}
+
+.super-flow-fragment-border:nth-child(9) {
+  clip-path: polygon(calc(100% - 2px) 0%, calc(80.8063% - 2px) 0%, calc(91.7661% - 2px) 100%, calc(100% - 2px) 100%);
+  transform: translate(0px, 0px) scale(1.2);
+}
+
+.super-flow-fragment-border:nth-child(11) {
+  clip-path: polygon(calc(100% - 2px) 0%, calc(93.3616% - 2px) 0%, calc(84.2749% - 2px) 100%, calc(100% - 2px) 100%);
+  transform: translate(0px, 0px) scale(1.25);
+}
+
+.super-flow-content {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: translate(5%, 0px) scale(1.2);
+  transition-duration: 4000ms;
+  transition-timing-function: linear;
+  z-index: 10;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: white;
+  opacity: 0.5;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
